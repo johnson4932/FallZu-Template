@@ -1,0 +1,16 @@
+nav.navbar-side {
+    width : 200px;
+}
+
+nav .nav-padding {
+    padding : 5px 20px 0 0;
+}
+
+nav .comment {
+    width : 310px;
+}
+
+#doc-main {
+    margin-top : 70px;
+    width : 1000px;
+}
