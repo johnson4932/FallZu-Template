@@ -5,3 +5,8 @@ nav .nav-padding {
 nav .comment {
     width : 310px;
 }
+
+#doc-main {
+    margin-top : 70px;
+    width : 1000px;
+}
