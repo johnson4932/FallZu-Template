@@ -12,5 +12,62 @@
         <script src="../../src/js/bootstrap.min.js"></script>
     </head>
     <body>
+        <div id="doc">
+            <!--Top NAV-->
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Dashboard</a>
+                </div>
+                <ul class="nav nav-pills navbar-right nav-padding">
+                    <!-- Comment -->
+                    <li class="dropdown dp-comment">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">
+                                    <div class="comment">
+                                        <div class="comment-title">
+                                            <strong>Johnson</strong>
+                                            <span class="pull-right text-muted">
+                                                <em>31 sec ago</em>
+                                            </span>
+                                        </div>
+                                        <div class="comment-content">Hello Johnson</div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="comment">
+                                        <div class="comment-title">
+                                            <strong>Maple</strong>
+                                            <span class="pull-right text-muted">
+                                                <em>1 month ago</em>
+                                            </span>
+                                        </div>
+                                        <div class="comment-content">Hello Maple</div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- User -->
+                    <li class="dropdown dp-user">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a></li>
+                            <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> Logout</a></li>
+                        </ul>
+                    </li>
+                </ul><!--end .navbar-right-->
+            </nav><!--end nav-->
+        </div><!--end #doc-->
     </body>
 </html>
