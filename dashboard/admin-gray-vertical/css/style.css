@@ -2,15 +2,20 @@ nav.navbar-side {
     width : 200px;
 }
 
-nav .nav-padding {
-    padding : 5px 20px 0 0;
+nav.navbar-side ul li {
+    border-bottom : 1px solid #e7e7e7;
+    margin : 0;
 }
 
-nav .comment {
-    width : 310px;
+.fa.arrow:before {
+    content : "\f104";
+}
+
+.collapsed > .fa.arrow:before {
+    content : "\f107";
 }
 
 #doc-main {
-    margin-top : 70px;
     width : 1000px;
+    margin-left : 230px;
 }

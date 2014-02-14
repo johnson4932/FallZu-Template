@@ -14,24 +14,26 @@
     <body>
         <div id="doc">
             <!--Side NAV-->
-            <nav class="navbar-default affix">
+            <nav class="navbar-default affix navbar-side">
                 <h3>Dashboard</h3>
                 <ul class="nav nav-pills nav-stacked">
-                    <li><a href="#">Item01</a></li>
-                    <li><a href="#">Item02</a></li>
-                    <li><a href="#">Item03</a></li>
+                    <li><a href="#"><i class="fa fa-folder-open"></i>  Item01</a></li>
+                    <li><a href="#"><i class="fa fa-folder-open"></i>  Item02</a></li>
+                    <li><a href="#"><i class="fa fa-folder-open"></i>  Item03</a></li>
                     <li>
-                        <a href="#" data-toggle="collapse" data-target="#second">dropdown</a>
+                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#second">
+                            <i class="fa fa-wrench"></i>  Machine<span class="fa arrow"></span>
+                        </a>
                         <ul id="second" class="nav collapse nav-second">
-                            <li><a href="#">aaaa</a></li>
-                            <li><a href="#">aaaa</a></li>
-                            <li><a href="#">aaaa</a></li>
+                            <li><a href="#">Computer 1</a></li>
+                            <li><a href="#">Computer 2</a></li>
+                            <li><a href="#">Computer 3</a></li>
                         </ul>
                     </li>
                 </ul>
             </nav><!--end nav-->
 
-            <div id="doc-main" class="container">
+            <div id="doc-main">
                 <div class="page-wrapper">
                     <h2>Page</h2>
                     <hr>
