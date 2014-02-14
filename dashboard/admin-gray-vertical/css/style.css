@@ -7,6 +7,10 @@ nav.navbar-side ul li {
     margin : 0;
 }
 
+nav .nav-title {
+    text-align:center;
+}
+
 .fa.arrow:before {
     content : "\f104";
 }
