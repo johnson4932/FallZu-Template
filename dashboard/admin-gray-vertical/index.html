@@ -14,7 +14,7 @@
     <body>
         <div id="doc">
             <!--Side NAV-->
-            <nav class="navbar-default affix navbar-side">
+            <nav class="navbar-default navbar-side pull-left">
                 <h3 class="nav-title">Dashboard</h3>
                 <ul class="nav nav-pills nav-stacked">
                     <li><a href="#"><i class="fa fa-folder-open"></i>  Item01</a></li>
@@ -24,16 +24,34 @@
                         <a href="#" class="collapsed" data-toggle="collapse" data-target="#second">
                             <i class="fa fa-wrench"></i>  Machine<span class="fa arrow"></span>
                         </a>
-                        <ul id="second" class="nav collapse nav-second">
+                        <ul id="second" class="nav collapse nav-sublevel">
                             <li><a href="#">Computer 1</a></li>
                             <li><a href="#">Computer 2</a></li>
                             <li><a href="#">Computer 3</a></li>
                         </ul>
                     </li>
+                    <li>
+                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#multi-second">
+                            <i class="fa fa-wrench"></i>  Multi-Level Dropdown<span class="fa arrow"></span>
+                        </a>
+                        <ul id="multi-second" class="nav collapse nav-sublevel">
+                            <li><a href="#">Computer 1</a></li>
+                            <li><a href="#">Computer 2</a></li>
+                            <li>
+                                <a href="#" class="collapsed" data-toggle="collapse" data-target="#multi-third">
+                                    <i class="fa fa-wrench"></i>  Multi-Level Dropdown<span class="fa arrow"></span>
+                                </a>
+                                <ul id="multi-third" class="nav collapse nav-sublevel">
+                                    <li><a href="#">Computer 1</a></li>
+                                    <li><a href="#">Computer 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </nav><!--end nav-->
 
-            <div id="doc-main">
+            <div id="doc-main" class="pull-left">
                 <div class="page-wrapper">
                     <h2>Page</h2>
                     <hr>

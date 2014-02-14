@@ -1,5 +1,5 @@
 nav.navbar-side {
-    width : 200px;
+    width : 250px;
 }
 
 nav.navbar-side ul li {
@@ -11,15 +11,19 @@ nav .nav-title {
     text-align:center;
 }
 
-.fa.arrow:before {
+nav .nav-sublevel {
+    padding-left : 20px;
+}
+
+nav .fa.arrow:before {
     content : "\f104";
 }
 
-.collapsed > .fa.arrow:before {
+nav .collapsed > .fa.arrow:before {
     content : "\f107";
 }
 
 #doc-main {
-    width : 1000px;
-    margin-left : 230px;
+    width : 900px;
+    margin-left : 20px;
 }
