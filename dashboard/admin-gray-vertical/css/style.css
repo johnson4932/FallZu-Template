@@ -1,29 +1,29 @@
 nav.navbar-side {
-    width : 250px;
+    width: 250px;
 }
 
 nav.navbar-side ul li {
-    border-bottom : 1px solid #e7e7e7;
-    margin : 0;
+    border-bottom: 1px solid #e7e7e7;
+    margin: 0;
 }
 
 nav .nav-title {
-    text-align:center;
+    text-align: center;
 }
 
 nav .nav-sublevel {
-    padding-left : 20px;
+    padding-left: 20px;
 }
 
 nav .fa.arrow:before {
-    content : "\f104";
+    content: "\f104";
 }
 
 nav .collapsed > .fa.arrow:before {
-    content : "\f107";
+    content: "\f107";
 }
 
 #doc-main {
-    width : 900px;
-    margin-left : 20px;
+    width: 900px;
+    margin-left: 20px;
 }
